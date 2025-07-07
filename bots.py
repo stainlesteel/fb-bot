@@ -1,11 +1,10 @@
 import os
 import discord
-from dotenv import load_dotenv
 from discord.ext import commands
 from discord.commands import SlashCommandGroup, Option
 
 
-tool = ('get your own')
+tool = ('get your own discord api')
 
 bot = commands.Bot()
 
