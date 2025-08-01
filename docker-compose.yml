@@ -1,0 +1,7 @@
+services:
+  fb-bot:
+    build: .
+    image: stainlesteel/fb-bot:1.0.0
+    restart: unless-stopped
+    environment:
+      DISCORD_TOKEN: TOKEN
